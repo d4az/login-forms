@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 700px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    padding: 60px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+td {
+    border: 12px solid white;
+    padding: 2px;
+}
+
+p {
+    color: red;
+    font-size: 13px;
+    margin-top: -25px;
+    font-style: italic;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+#submit {
+    font-size: 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid black;
+}
+
+#submit:hover {
+    background-color: white;
+    transition: 0.2s ease-in;
+    color: green;
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+}
+
+.input_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.input_select select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.input_select:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+    margin: 15px 10px 0 0;
+}
+
+input,
+.input_select {
+    border: 1px solid black;
+}
+
+input:focus,
+.input_select:focus {
+    border: 1px solid lightgreen;
+}
+
+input[type="checkbox"] {
+    color: black;
+    border: 2px solid cadetblue;
+}

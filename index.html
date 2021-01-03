@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="main">
+
+        <table>
+            <tr>
+                <tr id="top">
+                    <td>Name </td>
+                    <td><input type="text" placeholder="John" id="name"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="nameerror"></p>
+                    </td>
+                </tr>
+            </tr>
+
+            <tr>
+                <tr>
+                    <td>Email </td>
+                    <td><input type="Email" placeholder="John@email.com" id="email"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="emailerr"></p>
+                    </td>
+                </tr>
+            </tr>
+
+            <tr>
+                <tr>
+                    <td>Phone Number </td>
+                    <td><input type="number" name="" id="number" placeholder="011-123-1234"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="numerror"></p>
+                    </td>
+                </tr>
+            </tr>
+
+
+            <tr>
+                <tr>
+                    <td> Select Job Title</td>
+
+                    <td>
+                        <select name="one" id="degreesel" class="input_select">
+                        <option value="0" class="input_select">Select Your Job</option>
+                        <option value="1" class="input_select" > Software Engneer</option>
+                        <option value="2" class="input_select">Cyber Security</option>
+                        <option value="3" class="input_select">Web Designer</option>
+                        <option value="4" class="input_select">UI UX Designer</option>
+                    </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p id="drgreeerr"></p>
+                    </td>
+                </tr>
+            </tr>
+
+
+            <tr>
+                <tr>
+                    <td> Agree To Our Terms & Conditions</td>
+                    <td> <input type="checkbox" id="agree"> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="checkboxerr"></p>
+                    </td>
+                </tr>
+            </tr>
+            <br>
+            <tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submt" id="submit" value="Go!">
+                    </td>
+                </tr>
+            </tr>
+
+
+
+
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
