@@ -2,7 +2,7 @@
 This is basic Login forms that you can use in your websites. 
 
 
-#Form for a job
+# Form for a job
 
 This is basic form that you can use incase you need a form for a job application or something. 
 
